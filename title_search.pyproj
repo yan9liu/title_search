@@ -36,7 +36,6 @@
     <Compile Include="title_clean.py" />
     <Compile Include="title_df.py" />
     <Compile Include="title_lib.py" />
-    <Compile Include="title_search.py" />
     <Compile Include="title_tfidf.py" />
     <Compile Include="tmp_query_idf.py" />
     <Compile Include="token_df_map.py" />
@@ -44,6 +43,11 @@
     <Compile Include="token_mi_map.py" />
     <Compile Include="token_mi_map_reduce.py" />
     <Compile Include="token_mi_reduce.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="associate_name_with_cat.test" />
+    <Content Include="product_name.test" />
+    <Content Include="product_name.test.out" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
