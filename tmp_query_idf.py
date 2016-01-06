@@ -8,6 +8,7 @@ import math
 import pickle
 
 
+
 print 'loading df1...'
 N, df1_dict = pickle.load(open('product_name_20150401.clean.df1.dump', 'rb'))
 print 'loading index...'
